@@ -1,0 +1,93 @@
+.main_cart_cont {
+    width: 100%;
+ height: calc(100% - 60px);
+
+    display: flex;
+    background-color: aqua;
+    overflow: auto;
+
+}
+
+.cart_left {
+    width: 75%;
+    /* height: 100%; */
+    /* background-color: aqua; */
+    padding: 20px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px
+}
+
+.cart_right {
+    width: 25%;
+    /* height: 100%; */
+    /* background-color: aquamarine; */
+    position: relative;
+}
+
+.Cart_card_right {
+    width: 80%;
+    height: 10rem;
+    background-color: white;
+    position: sticky;
+    top: 130px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Cart_sub_total {
+    display: flex;
+
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    font-size: 1rem;
+    padding: 0.3rem 0px;
+    font-weight: 600;
+    
+
+}
+.sub_total_price::before{
+    content: "₹ ";
+}
+
+.sub__total_text {
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: start;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.place_order {
+    width: 100%;
+    height: 40px;
+    background: rgb(130, 187, 55);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px){
+    .main_cart_cont{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cart_left{
+        width: 100%;
+    }
+    
+    .cart_right {
+        width: 100%;
+        padding: 8px;;
+    }
+    .Cart_card_right{
+        width: 100%;
+        position: relative;
+            top: 0px;
+
+    }
+}

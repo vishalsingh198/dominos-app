@@ -1,0 +1,348 @@
+.card_cont {
+    width: 31%;
+    height: 21rem;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 12%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 2px 4px 0px;
+
+}
+
+.product_img {
+    width: 100%;
+    /* height: 9rem; */
+
+}
+
+.product_img>img {
+    width: 100%;
+
+}
+
+.text {
+    width: 100%;
+    height: 6rem;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 10px;
+
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+.Flavor_description {
+
+    line-height: 1.2;
+    font-size: 0.875rem;
+    color: rgba(122, 122, 122, 0.87);
+    margin-top: 0.5rem;
+    width: 90%;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.select_option {
+    flex-basis: auto;
+    flex-flow: row nowrap;
+    display: flex;
+    margin-top: 0.4rem;
+
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.left_select {
+    flex-flow: column nowrap;
+    width: 40%;
+    cursor: pointer;
+}
+
+.right_select {
+    flex-flow: column nowrap;
+    width: 60%;
+    cursor: pointer;
+}
+
+.right_select {
+    flex-flow: column nowrap;
+    margin-left: 1rem;
+    width: 60%;
+}
+
+.size {
+    width: 1.3rem;
+    height: 0.81rem;
+    font-size: 0.79rem;
+    color: rgba(122, 122, 122, 0.87);
+    margin-bottom: 0.2rem;
+}
+
+.select_size {
+    /* position: relative;
+    padding-bottom: 0.1rem; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.size_size {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    cursor: pointer;
+
+
+}
+
+.size_option {
+    font-size: 0.8rem;
+    color: rgb(53, 53, 53);
+    display: flex;
+    font-weight: 600;
+}
+
+.select_logo>span {
+
+    min-width: 0.3em;
+    min-height: 0.3em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 0.6em;
+    margin-top: 0.4em;
+    width: 1em;
+    font-weight: 600;
+    color: black;
+    font-size: 1rem;
+
+}
+
+.addtocart {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    margin-top: 0.5rem;
+    justify-content: flex-end;
+
+}
+
+.addtocart>button {
+    cursor: pointer;
+    padding: 0.433rem;
+    border: 1px solid rgb(0, 171, 0);
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    outline: none;
+    text-transform: uppercase;
+}
+
+.addtocart>button>span {
+    font-weight: 600;
+    font-size: 0.68rem;
+    color: rgb(0, 171, 0);
+}
+
+/**.size_select_cont {
+    width: 10rem;
+    height: 10rem; 
+   background-color: burlywood; 
+position: absolute;
+}
+
+.size_select_cont>ul {
+    list-style: none;
+    border-radius: 2px;
+   box-shadow: rgb(0 0 0 / 24%) 0px 5px 8px 0px, rgb(0 0 0 / 12%) 0px 0px 8px 0px; 
+    background-color: rgb(250, 250, 250);
+    padding: 0em;
+    width: 9.5em;
+    margin-top: 0em;
+    margin-left: -0.5em;
+}
+
+.item {
+    height: 1.9em;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0.5em;
+}
+
+.size_offer_cont {
+    width: 100%;
+    display: flex;
+}
+
+
+
+.left_size_cont_area {
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: rgba(21, 21, 21, 0.87);
+}
+
+.right {
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: rgb(100, 155, 28);
+}
+
+.sz-dd-spn1-1 {
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: rgba(21, 21, 21, 0.87)
+}
+
+.sz-dd-spn1-2 {
+    margin-top: 0.2rem;
+}
+
+*/
+
+
+
+/* Add card cart *******************************************************/
+
+.add_cart_cont {
+    width: 100%;
+
+    border-bottom: 1px dashed rgb(192, 216, 233);
+  
+
+}
+
+.top_half {
+   
+    display: flex;
+    margin-bottom: 10px;
+
+    gap: 10px;
+    width: 100%;
+
+}
+
+.img_logo {
+    width: 15rem;
+    height: 4rem;
+
+ 
+    /* margin-right: 10px; */
+
+    border-radius: 5px;
+    background-color: antiquewhite;
+   
+
+
+}
+
+.img_logo>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    
+}
+
+.tital {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(39, 71, 87);
+}
+
+.description {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: rgb(100, 129, 143);
+    margin-top: 0.6rem;
+    line-height: 1.2;
+}
+
+.footer {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.setQty {
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+    border: 1px solid rgb(186, 186, 186);
+    width: 100px;
+    border-radius: 3px;
+    justify-content: center;
+}
+
+.left_btn {
+    /* background-color: aqua; */
+    display: flex;
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-right: 1px solid rgb(186, 186, 186);
+
+
+}
+
+.left_btn>span {
+    font-size: medium;
+    cursor: pointer;
+    color : rgb(186, 186, 186);
+   
+
+}
+
+.right_btn>span {
+    font-size: medium;
+    cursor: pointer;
+    color: rgb(186, 186, 186);
+}
+
+.qty {
+    padding: 5px;
+    font-size: medium;
+    font-weight: 600;
+    color: black;
+    width: 33%;
+    text-align: center;
+
+
+}
+
+.right_btn {
+    /* background-color: aqua; */
+    display: flex;
+    width: 33%;
+
+    align-items: center;
+    padding: 5px;
+    border-left: 1px solid rgb(186, 186, 186);
+}
+
+.prise {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(44, 101, 128);
+}
+.rupee::before {
+    content: "₹ ";
+}
+.rupee{
+    color: black;
+}
+.border{
+    margin-top: 1rem;
+        max-height: 9.25rem;
+        align-self: center;
+        margin-bottom: 1rem;
+}
