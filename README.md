@@ -1,4 +1,4 @@
-#Hosting Link =>  https://dynamic-queijadas-bacca9.netlify.app
+#Hosting Link =>  https://dominos-1.herokuapp.com/
 
 # This app is created using Reactjs.
 which is fully  you can select your food add your food and add to cart in 
